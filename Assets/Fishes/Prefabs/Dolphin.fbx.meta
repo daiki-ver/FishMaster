@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 6fdff23885c5c0646aa961b9645a4af0
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -4086864642940237741
+    second: Armature|Swim
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Swim
+      takeName: Armature|Swim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Dolphin(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Dolphin(Clone)
+      position: {x: -0, y: 0.53269655, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature
+      position: {x: -0, y: 0, z: -0.0028832124}
+      rotation: {x: 0.25953606, y: 0.0002140895, z: -0.00021408944, w: 0.9657334}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Spine1
+      parentName: Root
+      position: {x: -0.000014001912, y: 0.0017634523, z: 0.023093414}
+      rotation: {x: 0.3386324, y: -0.0032016358, z: -0.00033492595, w: 0.94091326}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: 3.6862874e-20, y: 0.008982074, z: 7.4505804e-11}
+      rotation: {x: -0.02792969, y: 0.00018033948, z: -0.0016428937, w: 0.9996085}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: Spine3
+      parentName: Spine2
+      position: {x: -8.658389e-12, y: 0.017635565, z: 1.5375234e-10}
+      rotation: {x: 0.013204149, y: -0.00020451695, z: 0.0016400593, w: 0.9999115}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Spine4
+      parentName: Spine3
+      position: {x: 3.6117003e-12, y: 0.016041415, z: -2.9802613e-10}
+      rotation: {x: -0.022667332, y: 8.7311484e-11, z: -0.000000005764604, w: 0.99974304}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: Tail
+      parentName: Spine4
+      position: {x: 5.106487e-12, y: 0.014116849, z: 1.5225598e-14}
+      rotation: {x: 0.031907823, y: 7.8993756e-13, z: 0.000000006155773, w: 0.99949086}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: Tail_end
+      parentName: Tail
+      position: {x: -0, y: 0.01155506, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopFlipper.L
+      parentName: Spine1
+      position: {x: -0.009179291, y: 0.00930521, z: -0.006088434}
+      rotation: {x: 0.23936123, y: -0.15367012, z: -0.5730603, w: -0.76856595}
+      scale: {x: 1, y: 1.0000006, z: 1.0000005}
+    - name: MidFlipper.L
+      parentName: TopFlipper.L
+      position: {x: -8.9406965e-10, y: 0.0038373934, z: 8.9406965e-10}
+      rotation: {x: 0.02287726, y: 0.050953068, z: 0.11721884, w: 0.9915343}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: BottomFlipper.L
+      parentName: MidFlipper.L
+      position: {x: -0, y: 0.0024561596, z: 6.3329936e-10}
+      rotation: {x: -0.0024559812, y: -0.017604837, z: -0.0011048341, w: 0.99984145}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: BottomFlipper.L_end
+      parentName: BottomFlipper.L
+      position: {x: -0, y: 0.004379001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopFlipper.R
+      parentName: Spine1
+      position: {x: 0.008600576, y: 0.008794904, z: -0.0060491296}
+      rotation: {x: 0.2278112, y: 0.1340171, z: 0.57297254, w: -0.7757861}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: MidFlipper.R
+      parentName: TopFlipper.R
+      position: {x: -8.9406965e-10, y: 0.004726996, z: -4.4703483e-10}
+      rotation: {x: -0.028056137, y: 0.030456185, z: 0.12708431, w: -0.9910272}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: BottomFlipper.R
+      parentName: MidFlipper.R
+      position: {x: -2.9802322e-10, y: 0.0030575448, z: 1.4901161e-10}
+      rotation: {x: 0.017956218, y: -0.010814803, z: -0.0030853876, w: -0.9997755}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: BottomFlipper.R_end
+      parentName: BottomFlipper.R
+      position: {x: -0, y: 0.004141098, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Root
+      position: {x: -0.000014001927, y: -0.0019360112, z: 0.03346903}
+      rotation: {x: 0.7190478, y: -0.0000012590087, z: -0.0000013020795, w: 0.6949607}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.010356099, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dolphin
+      parentName: Dolphin(Clone)
+      position: {x: -7.434682e-17, y: 0.33482838, z: 0.36946574}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
